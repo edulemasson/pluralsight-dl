@@ -43,3 +43,7 @@ for (var i=0; i<module.length; i++)
 }
 }
 
+function getVideoUri(){
+	var videouri = document.getElementsByClassName('vjs-tech')
+	console.log(videouri[0].src)
+}
