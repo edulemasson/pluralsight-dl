@@ -1,17 +1,23 @@
 
-# CRAWLER DE CURSO PLURALSIGHT  
+# PLURALSIGHT DL
 
-## Capturando URI do Vídeo:  
+- Console Script to get name and URLs for each video you have access in your account
+
+## Setup:
+ 	Copy and Paste the contents from pluralsight.js in your browser console in your course page that contains the pluralsight player.
+ 	Than run below commands while a video is currently loaded.
+
+## Capture Video URI :  
 
 	getVideoUri()
 
 
-## Gerando Lista com Capítulo e Unidades:  
+## Get Entire Video and chapter in sequence:  
 
     getVideoList()
 
 
-## EXEMPLO DE LISTA DE Videos    
+## Video List Sample
 
 	CAPITULO: 01: Introducing Actor Models and Akka.NET  
 01 - 01 - Introduction  
@@ -76,3 +82,9 @@
 05 - 05 - Adding a Remote Actor System  
 05 - 06 - Configuring Remote Deployment  
 05 - 07 - Summary  
+
+TODO: 
+	- Automatically click in each video to open it and consume it URL
+
+CONTRIBUTE: 
+	- You are welcome!
